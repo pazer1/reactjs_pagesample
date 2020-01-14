@@ -1,9 +1,12 @@
 import React from 'react'
+import InfraPresenter from './InfraPresenter'
 
 class InfraContainer extends React.Component{
     render(){
         return(
-            <div>infra</div>
+            <InfraPresenter/>
         )
     }
 }
+
+export default InfraContainer

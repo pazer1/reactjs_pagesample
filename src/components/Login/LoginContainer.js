@@ -1,7 +1,8 @@
 import LoginPresenter from './LoginPresenter'
 import React, { Component } from 'react'
+import {connect} from 'react-redux'
 
-export default class LoginContainer extends Component {
+ class LoginContainer extends Component {
     render() {
         console.log(this.props)
         return (
@@ -11,3 +12,6 @@ export default class LoginContainer extends Component {
         )
     }
 }
+
+export default connect()
+

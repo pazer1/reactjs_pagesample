@@ -15,7 +15,7 @@ export default class HeaderPresenter extends Component {
 
         return (
             <Navbar variant="dark" bg="dark" expand="sm">
-                <NavLink exact to="/test"><Navbar.Brand>sdsd</Navbar.Brand></NavLink>
+                <NavLink exact to="/dash"><Navbar.Brand>sdsd</Navbar.Brand></NavLink>
                 <Navbar.Toggle aria-controls="basic-navbar-nav"/>
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto">
