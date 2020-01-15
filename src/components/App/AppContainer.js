@@ -3,7 +3,7 @@ import AppPresenter from './AppPresenter'
 
 class AppContainer extends React.Component{
     render(){
-        console.log(this.props)
+        console.log("AppContainer",this.props)
         return(
             <AppPresenter/>
         )
